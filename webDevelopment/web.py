@@ -7,6 +7,6 @@
 
 from http.server import HTTPServer, BaseHTTPRequestHandler, SimpleHTTPRequestHandler
 
-server = HTTPServer(("", 8000), SimpleHTTPRequestHandler)
+server = HTTPServer(("", 8888), SimpleHTTPRequestHandler)
 server.serve_forever()
 
